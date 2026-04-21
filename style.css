@@ -1,0 +1,63 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333; /* HEX */
+    color: white; /* Color name */
+    text-align: center;
+    padding: 20px;
+}
+#logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: rgb(200, 0, 0); /* RGB */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: black;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.special {
+    background-color: rgba(0, 0, 0, 0.1); /* RGBA */
+    padding: 15px;
+    margin-top: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+
+footer {
+    background-color: hsl(0, 0%, 20%); /* HSL */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
